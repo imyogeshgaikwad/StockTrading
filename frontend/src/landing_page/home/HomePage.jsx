@@ -10,7 +10,7 @@ import Footer from '../Footer';
 
 function HomePage() {
     return ( 
-        <div>
+        <>
             <NavBar/>
            <Hero/>
             <Awards/>
@@ -20,7 +20,7 @@ function HomePage() {
             <OpenAccount/>
             <Footer/>
 
-        </div>
+        </>
      );
 }
 
