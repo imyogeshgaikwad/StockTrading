@@ -1,15 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import {BrowserRouter, Routes, Route} from"react-router-dom"
 import './App.css'
 import HomePage from './landing_page/home/HomePage'
+import Signup from "./landing_page/signup/Signup"
+import AboutPage from "./landing_page/about/AboutPage"
+import Productpage from "./landing_page/products/ProductPage"
+import PricingPage from "./landing_page/pricing/PricingPage"
+import SupportPage from "./landing_page/support/SupportPage"
+import NavBar from  "./landing_page/Navbar"
+import Footer from "./landing_page/Footer"
 
 function App() {
 
   return (
-    <>
-     <HomePage/>
-    </>
+    <BrowserRouter>
+    <NavBar/>
+      <Routes>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/signup" element={<Signup/>}/>
+        <Route path="/about" element={<LinkboutPage/>}/>
+        <Route path="/product" element={<Productpage/>}/>
+        <Route path="/pricing" element={<PricingPage/>}/>
+        <Route path="/support" element={<SupportPage/>}/>
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   )
 }
 
