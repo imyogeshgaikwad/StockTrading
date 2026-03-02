@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 
 function Pricing() {
     return ( 
@@ -7,7 +9,7 @@ function Pricing() {
             <div className='col-4'>
                 <h1 className='mb-3 fs-2'>Unbeatable pricing</h1>
                 <p>We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.</p>
-                  <Link to=''> See pricing <i class="fa-solid fa-arrow-right-long"></i> </Link>
+                  <Link to=''> See pricing <i className="fa-solid fa-arrow-right-long"></i> </Link>
             </div>
             <div className='col-3'></div>
             <div className='col-5'>
