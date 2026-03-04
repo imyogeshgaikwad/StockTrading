@@ -67,12 +67,4 @@ button:focus-visible {
   }
 }
 
-.nav-link{
-  margin-left: 40px;
-}
-.links {
-  display: flex;
-  gap: 20px;   /* space between anchor tags */
-  flex-wrap: wrap; /* optional if you want them to wrap */
-  align-items: center;
-}
+

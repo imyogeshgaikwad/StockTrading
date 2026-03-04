@@ -41,3 +41,34 @@
   color: #888;
 }
  /* added some comments */
+ #support {
+  background-color: blueviolet;
+  color: white;
+}
+
+.nav-link{
+  margin-left: 40px;
+}
+.links {
+  display: flex;
+  gap: 20px;   /* space between anchor tags */
+  flex-wrap: wrap; /* optional if you want them to wrap */
+  align-items: center;
+  
+}
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+#support a{
+  color: white;
+}
+
+#support input{
+  padding: 20px 50px ;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
