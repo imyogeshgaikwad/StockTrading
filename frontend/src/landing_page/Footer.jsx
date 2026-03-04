@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer style={{ backgroundColor: "rgb(250,250,250)" }}>
-      <div className="container border-top mt-5">
+      <div className="container border-top mt-5" >
         <div className="row mt-5">
 
           <div className="col">
@@ -16,7 +16,7 @@ function Footer() {
             <p>© 2010 - 2026, Zerodha Broking Ltd. All rights reserved</p>
           </div>
 
-          <div className="col text-muted">
+          <div className="col text-muted " style={{textDecoration:"none"}}>
             <p>Account</p>
             <Link to="#">Open demat account</Link><br />
             <Link to="#">Minor demat account</Link><br />
@@ -28,7 +28,7 @@ function Footer() {
             <Link to="#">Referral program</Link><br />
           </div>
 
-          <div className="col">
+          <div  className="col text-muted " style={{textDecoration:"none"}}>
             <p>Support</p>
             <Link to="#">Contact us</Link><br />
             <Link to="#">Support portal</Link><br />
@@ -40,7 +40,7 @@ function Footer() {
             <Link to="#">Downloads</Link><br />
           </div>
 
-          <div className="col">
+          <div  className="col text-muted " style={{textDecoration:"none"}}>
             <p>Company</p>
             <Link to="#">About</Link><br />
             <Link to="#">Philosophy</Link><br />
@@ -51,7 +51,7 @@ function Footer() {
             <Link to="#">Open source</Link><br />
           </div>
 
-          <div className="col">
+          <div  className="col text-muted " style={{textDecoration:"none"}}>
             <p>Quick links</p>
             <Link to="#">Upcoming IPOs</Link><br />
             <Link to="#">Brokerage charges</Link><br />
