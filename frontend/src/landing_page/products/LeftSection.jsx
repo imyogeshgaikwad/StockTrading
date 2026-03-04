@@ -1,9 +1,28 @@
 import React from 'react';
 
-function LeftSection() {
+function LeftSection({imageURL, productName, productDescription, tryDemo, learnMore, googlePlay, appStrore}) {
     return ( 
-        <div>
-            <h1>LeftSection</h1>
+        <div className='container mt-5'>
+            <div className='row'>
+                <div className='col-6 '>
+                    <img src={imageURL}></img>
+                </div>
+
+                <div className='col-6 p-5 mt-5'>
+                <h1>{ productName}</h1>
+                <p>{productDescription}</p>
+                <div>
+                    <a href={tryDemo}>Try Demo</a>
+                <a href={learnMore} style={{marginLeft:"50px"}}>Learn More</a>
+                </div>
+                <div className='mt-3'>
+                <a href={googlePlay}><img src='../media/googlePlayBadge.svg' alt='Google Play Store'></img></a>
+                <a href={appStrore}> <img src="../media/appstoreBadge.svg" style={{marginLeft:"50px"}} alt="App Strore" /></a>
+                </div>
+                </div>
+
+            </div>
+            
         </div>
      );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-import Hero from "../home/Hero"
-import Brokerage from './Brokerage';
-import OpenAccount from '../OpenAccount';
+import Hero from "./Hero"
+import Brokerage from './Brokerage.jsx';
+import OpenAccount from '../OpenAccount.jsx';
 
 function PricingPage() {
     return (  
@@ -9,7 +9,6 @@ function PricingPage() {
             <Hero/>
             <OpenAccount/>
             <Brokerage/>
-            <Team/>
         </div>
     );
 }
